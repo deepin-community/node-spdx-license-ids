@@ -1,0 +1,44 @@
+node-spdx-license-ids (3.0.7-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Add ctype=nodejs to component(s)
+  * Use dh-sequence-nodejs
+  * New upstream version 3.0.7
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 25 Dec 2020 20:41:23 +0100
+
+node-spdx-license-ids (3.0.5-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto install
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * New upstream version 3.0.5
+  * Embed component: get-spdx-license-ids
+  * Fix upstream test
+  * Enable upstream test using tape
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 09 Mar 2020 15:48:41 +0100
+
+node-spdx-license-ids (1.2.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #842127)
+
+ -- Sruthi Chandran <srud@disroot.org>  Wed, 26 Oct 2016 11:10:04 +0530

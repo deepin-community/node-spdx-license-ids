@@ -1,0 +1,22 @@
+Description: test returns 0 even if it fails
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: no
+Last-Update: 2020-03-09
+
+--- a/test.js
++++ b/test.js
+@@ -4,9 +4,6 @@
+ const valid = require('.');
+ const test = require('tape');
+ 
+-(async () => {
+-	await require('./build.js');
+-
+ 	test('require(\'spdx-license-ids\')', t => {
+ 		t.ok(Array.isArray(valid), 'should be an array.');
+ 
+@@ -43,4 +40,3 @@
+ 
+ 		t.end();
+ 	});
+-})();

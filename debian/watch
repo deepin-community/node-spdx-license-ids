@@ -1,0 +1,12 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-spdx-license-ids-$1.tar.gz/ \
+ https://github.com/shinnn/spdx-license-ids/tags .*/archive/v?([\d\.]+).tar.gz
+
+opts=\
+ctype=nodejs,\
+component=get-spdx-license-ids,\
+dversionmangle=auto,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-get-spdx-license-ids-$1.tar.gz/ \
+ https://github.com/shinnn/get-spdx-license-ids/tags .*/archive/v?([\d\.]+).tar.gz ignore

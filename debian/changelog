@@ -1,3 +1,35 @@
+node-spdx-license-ids (3.0.12-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.1
+  * New upstream version 3.0.12
+
+ -- Yadd <yadd@debian.org>  Thu, 25 Aug 2022 07:19:12 +0200
+
+node-spdx-license-ids (3.0.11+repack1-1) unstable; urgency=medium
+
+  * Team upload
+  * Drop component get-spdx-license-ids (Closes: #1008633) and repack
+
+ -- Yadd <yadd@debian.org>  Wed, 30 Mar 2022 06:46:53 +0200
+
+node-spdx-license-ids (3.0.11-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-spdx-license-ids: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop nodejs dependency
+  * New upstream version 3.0.11
+
+ -- Yadd <yadd@debian.org>  Fri, 10 Dec 2021 14:39:16 +0100
+
 node-spdx-license-ids (3.0.7-1) unstable; urgency=medium
 
   * Team upload
